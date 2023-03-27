@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form-search{
+    position: absolute;
+    left: 30%;
+   
+
+}
+.form-search input{
+    width: 590px;
+    height: 31px;
+    border-radius: 20%;
+}
+.divLink {
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.divLink button {
+    padding: 7px;
+    ;
+    margin: 50px 7px;
+    height: 35px;
+    border-radius: 15%;
+    border: 0px solid white;
+}
+.divLink button:active{
+    background-color:black ;
+    color: aliceblue;
+}
+
+
+
+.firstDiv{
+    width: 400px;
+    height: 300px;
+}
+.header{
+    margin-left: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+
+.header img{
+    border-radius: 10%;
+    
+}
