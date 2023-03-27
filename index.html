@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display_domaci </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--bootstrep-->
 </head>
 <body>
     <form class="form-search" action="https://www.google.com/search" method="get">
         <label for="search-input"></label>
         <input type="text" id="search-input" name="q" placeholder="SEARCH"/>
-        <button type="submit"><img src="" alt="search"></button>
+        <button type="submit" class="btn btn-default "><span class="glyphicon glyphicon-search"></span> </button> <!--bootstrep icon(lupa)-->
+                
       </form>
     <div class="divLink">
         <button onclick="primeni(this)">All</button>
@@ -25,10 +27,10 @@
     </div>
     <div class="header">
     <div class="firstDiv">
-        <img src="img/lav.jpg" alt="lav" width="350px" height="200px">
-        <h3>Zivot Lava u Africi</h3>
-        <p>RTS-kultura</p>
-        <p>121k pregleda</p>
+        <iframe src="https://www.youtube.com/watch?v=etabaELY74g" alt="lav" width="350px" height="200px"></iframe>
+        <h3>Tigar protiv lava ko bi pobedio</h3>
+        <p>Novi anonimus</p>
+        <p>189k pregleda</p>
     </div>
     <div class="firstDiv">
         <img src="img/gepard.jpg" alt="Gepard" width="350px" height="200px">
@@ -73,6 +75,6 @@
         <p>380k pregleda</p>
     </div>
 </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
