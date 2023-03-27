@@ -12,7 +12,7 @@
 .form-search input{
     width: 590px;
     height: 31px;
-    border-radius: 20%;
+    border-radius: 15px;
 }
 .divLink {
     margin-left: 20%;
@@ -27,6 +27,10 @@
     height: 35px;
     border-radius: 15%;
     border: 0px solid white;
+}
+.divLink button:hover{
+    background-color:rgb(196, 194, 194) ;
+    
 }
 .divLink button:active{
     background-color:black ;
