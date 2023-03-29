@@ -1,3 +1,10 @@
+:root{
+    --bojaOsnovna:#2bf514a9;
+    --bojaDruga:#387fc7;
+    --velicinaFonta:16px;
+    --velicinaRadius:10px;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -12,7 +19,7 @@
 .form-search input{
     width: 590px;
     height: 31px;
-    border-radius: 15px;
+    border-radius: var(--velicinaFonta);
     
 }
 @media (max-width:600px) {
@@ -45,17 +52,19 @@
     padding: 7px;
     margin: 50px 7px;
     height: 35px;
-    border-radius: 10px;
+    border-radius: var(--velicinaRadius);
     border: 0px solid white;
 }
 @media(max-width:600px){
     .divLink button{
-        border-radius: 20px;
+        border-radius: var(--velicinaRadius*2);
         
     }
 }
 .divLink button:hover{
     background-color:rgb(196, 194, 194) ;
+    transform: scale(1.5) rotate(5deg) skew(7deg);
+    
     
 }
 .divLink button:active{
@@ -63,7 +72,7 @@
     color: aliceblue;
 }
 img:hover{
-    zoom: 1.1;
+    transform: scale(1.1);
 }
 
 
